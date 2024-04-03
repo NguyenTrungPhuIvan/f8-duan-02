@@ -24,3 +24,57 @@ html {
 a {
     text-decoration: none;
 }
+
+/* ============= header css ========= */
+header.header .body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+.right-header {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+nav.nav ul {
+    display: flex;
+    gap: 42px;
+}
+
+.nav .title-nav {
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 0.8;
+    line-height: 1.75; /* 175% */
+}
+.nav li:first-child .title-nav {
+    color: #171100;
+    font-weight: 700;
+    position: relative;
+}
+.nav li:first-child .title-nav::after {
+    content: "";
+    display: block;
+    width: 12px;
+    border-radius: 999px;
+
+    height: 2.5px;
+    background: #171100;
+    position: absolute;
+    left: 0;
+    top: 2.3rem;
+}
+
+.right-header .btn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: #171100;
+    padding: 17px 41px;
+    border-radius: 999px;
+}
