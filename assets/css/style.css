@@ -34,6 +34,12 @@ a {
     padding: 17px 41px;
     border-radius: 999px;
 }
+.marble {
+    width: 6px;
+    height: 6px;
+    background-color: #634700;
+    border-radius: 50%;
+}
 /* ============= header css ========= */
 header.header .body {
     display: flex;
@@ -397,12 +403,7 @@ nav.nav ul {
     display: flex;
     gap: 6px;
 }
-.comment .user .marble {
-    width: 6px;
-    height: 6px;
-    background-color: #634700;
-    border-radius: 50%;
-}
+
 .comment .user .marble:nth-child(2) {
     background: #ffb900;
 }
@@ -422,4 +423,52 @@ nav.nav ul {
     font-style: italic;
     font-weight: 300;
     line-height: 1.55; /* 153.846% */
+}
+/* ============== Learner =============== */
+.learner {
+    margin-top: 200px;
+}
+.learner .body {
+    display: flex;
+    height: 438px;
+}
+.learner .body .img-learner {
+    display: flex;
+    gap: 30px;
+}
+.learner .body .img-learner img {
+    width: 27rem;
+    height: 40.5rem;
+    object-fit: cover;
+    border-radius: 1.6rem;
+}
+.learner .body .img-learner img:first-child {
+    align-self: flex-end;
+}
+.learner .body .img-learner img:last-child {
+    align-self: flex-start;
+}
+
+.learner .content-leaener {
+    margin-left: 130px;
+    padding: 58px 0;
+}
+.learner .content-leaener .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+.learner .content-leaener .desc {
+    color: #5f5b53;
+    margin-top: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+.learner .content-leaener .btn {
+    margin-top: 32px;
+    background: #ffb900;
 }
