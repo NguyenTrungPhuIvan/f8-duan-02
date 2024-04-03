@@ -453,7 +453,8 @@ nav.nav ul {
     margin-left: 130px;
     padding: 58px 0;
 }
-.learner .content-leaener .title {
+.learner .content-leaener .title,
+.lesson-join .content-lesson .title {
     color: #171100;
     font-family: Sen;
     font-size: 3.8rem;
@@ -461,14 +462,35 @@ nav.nav ul {
     line-height: 1.26; /* 126.316% */
     letter-spacing: -0.076rem;
 }
-.learner .content-leaener .desc {
+.learner .content-leaener .desc,
+.lesson-join .content-lesson .desc {
     color: #5f5b53;
     margin-top: 16px;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.75; /* 175% */
 }
-.learner .content-leaener .btn {
+.learner .content-leaener .btn,
+.lesson-join .content-lesson .btn {
     margin-top: 32px;
+    min-width: 137px;
+    padding: 11px 0;
     background: #ffb900;
+    line-height: 1.75; /* 175% */
+}
+/* ============== lesson-join =============== */
+.lesson-join .body {
+    display: flex;
+    margin-top: 200px;
+}
+.lesson-join .content-lesson {
+    padding: 71px 0;
+}
+
+.lesson-join .img-lesson img {
+    width: 47rem;
+    margin-left: 130px;
+    height: 44rem;
+    border-radius: 20px;
+    object-fit: cover;
 }
