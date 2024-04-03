@@ -497,6 +497,7 @@ nav.nav ul {
 /* ============== Blog =============== */
 .blog {
     margin-top: 296px;
+    padding-bottom: 96px;
 }
 .blog .heading {
     width: 44.8rem;
@@ -589,4 +590,97 @@ nav.nav ul {
 }
 .blog .marbles .marble:nth-child(2) {
     background: #ffb900;
+}
+/* ============== Footer =============== */
+
+.footer {
+    background: #2e2100;
+    padding: 96px 0 28px;
+}
+.footer .row {
+    display: flex;
+    gap: 130px;
+    margin-bottom: 38px;
+}
+.footer .row .column {
+    width: 130px;
+}
+.footer .row .column .logo {
+    width: 85px;
+    height: 35px;
+}
+.footer .row .column:first-child {
+    padding-right: 10px;
+    width: 267px;
+    display: flex;
+    flex-flow: column;
+    gap: 18px;
+}
+.footer .row .column:last-child a {
+    white-space: wrap;
+}
+
+.footer .row .icon-follow {
+    display: flex;
+    gap: 18px;
+}
+.footer .column .title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+    position: relative;
+}
+.footer .column .title::after {
+    content: "";
+    display: block;
+    width: 13rem;
+    height: 0.1rem;
+    background: #59554b;
+    position: absolute;
+    bottom: -20px;
+}
+.footer .column .menu-link {
+    margin-top: 42px;
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+.footer .column .menu-link li {
+    width: 23.1rem;
+}
+.footer .column .menu-link a {
+    color: #bfbcb2;
+
+    font-size: 1.4rem;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+.footer .column .menu-link b {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer .separate {
+    height: 1px;
+    background: #59554b;
+    margin-bottom: 28px;
+}
+.footer .copy-right {
+    color: #807d74;
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+.footer .desc {
+    color: #bfbcb2;
+    font-family: Poppins;
+    width: 26.7rem;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
 }
