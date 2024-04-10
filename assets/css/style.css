@@ -34,6 +34,10 @@ a {
     padding: 17px 41px;
     border-radius: 999px;
 }
+.btn:hover {
+    background: #ffb900;
+}
+
 .marble {
     width: 6px;
     height: 6px;
@@ -45,6 +49,10 @@ header.header .body {
     display: flex;
     justify-content: space-between;
     padding-top: 36px;
+}
+header.header .body .link-logo {
+    display: flex;
+    align-items: center;
 }
 .right-header {
     display: flex;
@@ -192,6 +200,9 @@ nav.nav ul {
     font-size: 1.8rem;
     padding: 24px 34px;
 }
+.hero .right-hero .btn:hover {
+    background: #171100;
+}
 .hero .row {
     margin-top: 38px;
     gap: 28px;
@@ -202,6 +213,9 @@ nav.nav ul {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+.hero .watch-video:hover {
+    opacity: 0.75;
 }
 .hero .watch-video .bg-icon-play {
     display: flex;
@@ -284,6 +298,9 @@ nav.nav ul {
 .cousers .row .control .chevron-left {
     background: transparent;
     border: 1px solid #ffb900;
+}
+.cousers .chevron {
+    cursor: pointer;
 }
 .cousers .row .control .chevron-right {
     background: #ffb900;
@@ -477,6 +494,10 @@ nav.nav ul {
     padding: 11px 0;
     background: #ffb900;
     line-height: 1.75; /* 175% */
+}
+.learner .content-leaener .btn:hover,
+.lesson-join .content-lesson .btn:hover {
+    background: #171100;
 }
 /* ============== lesson-join =============== */
 .lesson-join .body {
